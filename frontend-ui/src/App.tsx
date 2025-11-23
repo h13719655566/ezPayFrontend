@@ -1,7 +1,7 @@
-// src/App.tsx
 import { Container, Typography, Box, Divider, Button } from '@mui/material';
 import { RegisterWebhookForm } from './components/RegisterWebhookForm';
 import { PaymentForm } from './components/PaymentForm';
+import WebhookDeliveryMonitor from './components/WebhookDeliveryMonitor';
 
 function App() {
   return (
@@ -29,6 +29,16 @@ function App() {
            Create Payment
         </Typography>
         <PaymentForm /> 
+      </Box>
+
+      <Divider sx={{ my: 6 }} />
+
+      {/* Webhook Monitoring Section */}
+      <Box id="monitor-section" sx={{ my: 4, pt: 2 }}>
+        <Typography variant="h5" component="h2" gutterBottom align="center" sx={{ color: 'text.primary' }}>
+            Webhook Delivery Tracker
+        </Typography>
+        <WebhookDeliveryMonitor /> 
       </Box>
       
     </Container>

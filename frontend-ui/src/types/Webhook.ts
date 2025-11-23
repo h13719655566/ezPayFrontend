@@ -14,3 +14,15 @@ export interface RegisterWebhookResponse {
     /** A Base64-encoded secret used to verify HMAC signatures on webhook events. */
     secret: string; 
 }
+
+export interface WebhookDelivery {
+    id: number;
+    paymentId: string;
+    endpointId: string;
+    attempt: number;
+    statusCode: number; 
+    responseBody: string;
+    nextRetryAt: string | null;
+    createdAt: string; 
+    success: boolean; 
+}

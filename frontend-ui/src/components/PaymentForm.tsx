@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, TextField, Box, Typography, Paper, Alert, Grid } from '@mui/material';
-import type { PaymentRequest, PaymentResponse } from '../types/Payment.ts'; // 修正了 TypeScript 導入語法
+import type { PaymentRequest, PaymentResponse } from '../types/Payment.ts';
 import axios from 'axios';
 
 // API Base URL
