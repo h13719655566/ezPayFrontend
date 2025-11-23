@@ -6,13 +6,7 @@
 
 ---
 
-This is the user interface application for the EzPay payment system. It provides a dashboard and tools for users to initiate payments, register Webhook endpoints, and monitor payment activities.
-
-## Technology Stack
-
-The project is built using modern front-end technologies.
-
-**Note:** Please update the badges for **Chakra UI** and **State Management Placeholder** if you are using different libraries.
+This is the user interface application for the EzPay payment system. It provides a dashboard and tools for users to initiate payments, register Webhook endpoints, and monitor webhook activities.
 
 ## 🚀 Getting Started
 
@@ -43,8 +37,6 @@ Execute the following commands from the **`frontend-ui`** directory:
 ### 3. Backend Dependency
 
 This frontend application requires the **EzPay Backend API Service** to be running to function correctly.
-
-Please ensure the backend service is operational and update the API request base URL in the frontend's configuration (usually via environment variables like `.env`).
 
 ---
 
