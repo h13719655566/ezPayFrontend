@@ -1,0 +1,43 @@
+# Dependencies
+##########################
+/node_modules
+/jspm_packages
+
+# Testing/Debugging
+##########################
+/coverage
+/debug.log
+.nyc_output
+
+# Build/Dist/Output
+##########################
+/dist
+/build
+/out
+.cache
+*.tsbuildinfo
+
+# Editor/OS Specific Files
+##########################
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+##########################
+# DO NOT commit sensitive keys/secrets
+.env
+.env.local
+.env.*.local
+
+##########################
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Misc
+##########################
+*.log
+npm-debug.log*
+yarn-error.log*
