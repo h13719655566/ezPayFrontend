@@ -14,27 +14,32 @@ This is the user interface application for the EzPay payment system. It provides
 
 Before running the project locally, ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (LTS recommended)
+- [Node.js](https://nodejs.org/) ≥ 18 (LTS recommended) 
 - [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-### 2. Installation and Running
+### 2. Clone repository
+```bash
+git clone git@github.com:h13719655566/ezPayFrontend.git
+cd ezPayFrontend
+cd frontend-ui
+```
+
+### 3. Installation and Running
 
 Execute the following commands from the **`frontend-ui`** directory:
 
 1.  **Install dependencies:**
     ```bash
     npm install
-    # or yarn install
     ```
 
 2.  **Start the development server:**
     ```bash
     npm run dev
-    # or yarn dev
     ```
     The application will typically start at `http://localhost:5173`.
 
-### 3. Backend Dependency
+### 4. Backend Dependency
 
 This frontend application requires the **EzPay Backend API Service** to be running to function correctly.
 
